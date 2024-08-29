@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Página con dos botones en el centro estilizados y bonitos con una separación entre ellos y un texto que indique que para ver los proyectos debe elegir uno -->
+    <div class="bg-amber-50 flex items-center justify-center min-h-screen">
+        <div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden shadow-lg p-6">
+            <h4 class="font-bold text-lg mb-4">Aquí puedes escoger una de las dos versiones</h4>
+            <div class="flex flex-col space-y-4">
+                <a href="bootstrap-workshop/index.html">
+                    <button class="w-full bg-green-700 text-white py-2 px-4 rounded hover:bg-green-800">
+                        Versión Bootstrap
+                    </button>
+                </a>
+                <a href="tailwindcss-workshop/index.html">
+                    <button class="w-full bg-green-700 text-white py-2 px-4 rounded hover:bg-green-800">
+                        Versión Tailwind
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
